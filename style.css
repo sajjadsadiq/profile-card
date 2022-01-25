@@ -1,0 +1,153 @@
+/* Goolge Font CSS */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --body-color: rgb(228, 228, 228);
+  --text-color: #707070;
+  --title-color: rgb(34, 30, 30);
+  --pimary-color: #695cfe;
+  --pimary-color-light: #f6f5ff;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: #f0f2f2;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.profile-box {
+  background-color: var(--body-color);
+  text-align: center;
+  padding: 40px 90px;
+  border-radius: 10px;
+  position: relative;
+  margin: 50px 0;
+}
+
+.profile-box .profile-menu,
+.profile-box .profile-message {
+  position: absolute;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.profile-box .profile-menu {
+  top: 40px;
+  left: 40px;
+}
+
+.profile-box .profile-message {
+  top: 40px;
+  right: 40px;
+}
+
+.profile-box img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: rgb(170, 164, 164);
+  padding: 6px;
+  margin-top: 40px;
+}
+
+.profile-box h3 {
+  color: var(--title-color);
+  font-weight: 600;
+  font-size: 22px;
+  margin-top: 15px;
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0 30px 0;
+}
+
+.social-icons i {
+  margin-top: 5px;
+  width: 20px;
+  margin-right: 9px;
+  cursor: pointer;
+  background-color: rgb(240, 237, 237);
+  padding: 15px 30px 15px 15px;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.social-icons i:hover {
+  background-color: rgb(207, 206, 206);
+}
+
+.profile-box p {
+  color: var(--text-color);
+}
+
+/* Profile Buttom*/
+
+.profile-box .profile-bottom {
+  padding: 60px 0 29px 0;
+  margin-right: -90px;
+  margin-left: -90px;
+  margin-bottom: -40px;
+  border-radius: 10px;
+}
+
+.profile-box button {
+  border: none;
+  outline: none;
+  padding: 15px 60px;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: -60px;
+  cursor: pointer;
+}
+
+/* one */
+.profile-bottom-one {
+  background-color: var(--pimary-color);
+  color: var(--pimary-color-light);
+  color: white;
+}
+.profile-bottom-one p {
+  color: white;
+}
+
+/* two */
+.profile-bottom-tow {
+  background-color: rgb(196, 16, 16);
+}
+
+.profile-bottom-tow p {
+  color: rgb(19, 13, 13);
+}
+
+/* three */
+.profile-bottom-three {
+  background-color: rgb(165, 12, 185);
+  color: white;
+}
+.profile-bottom-three p {
+  color: white;
+}
+
+.profile-box .profile-down-icon {
+  width: 15px;
+  margin-top: 15px;
+  cursor: pointer;
+}
